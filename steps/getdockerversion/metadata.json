@@ -1,0 +1,10 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "getdockerversion", 
+    "name": "Get Docker Version", 
+    "osCredKey": "linuxdockercredentials", 
+    "serverKey": "linuxdockernode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

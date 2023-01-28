@@ -1,0 +1,30 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "installdockerengineanddockercompose", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "updateandupgradeospackages"
+        }, 
+        {
+            "order": 50, 
+            "stepKey": "installdockerio"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "getdockerversion"
+        }, 
+        {
+            "order": 150, 
+            "stepKey": "installdockercompose"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "getdockercomposeversion"
+        }
+    ], 
+    "name": "Install Docker Engine and Docker Compose", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}
